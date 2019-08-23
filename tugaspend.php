@@ -7,9 +7,10 @@
     <title>Pendaftaran</title>
 </head>
 <body>
+<fieldset>
+    <legend align = "center"><marquee><font color = "red"><h1>Form Pendaftaran</h1></font></marquee></legend></h1>
     <form ACTION = "prosespen.php" METHOD = "POST" NAME = "input">
-    <legend>Form Pendaftaran</legend>
-    <fieldset>
+    
         No Pendaftaran :<br> <input type = "number" name = "no"><br>
         NISN :<br> <input type = "number" name = "nisn"><br>
         Nama :<br> <input type = "text" name = "nama"><br>
@@ -43,6 +44,7 @@
                  <input type = "radio" name = "agama" value = "Konghucu">Konghucu<br>
 
          <input type = "submit" name = "register" value = "Daftar">
+          <input type = "reset" name = "reset" value = "Reset">
     </fieldset>
     </form>
 </body>
